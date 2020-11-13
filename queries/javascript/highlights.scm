@@ -131,7 +131,8 @@
 
 (true) @boolean
 (false) @boolean
-(null) @constant.builtin
+(null) @boolean
+(undefined) @boolean
 (comment) @comment
 (string) @string
 (regex) @punctuation.delimiter
@@ -144,7 +145,7 @@
 
 (template_substitution
   "${" @punctuation.special
-  "}" @punctuation.special) @embedded
+  "}" @punctuation.special) @none
 
 "..." @punctuation.special
 
