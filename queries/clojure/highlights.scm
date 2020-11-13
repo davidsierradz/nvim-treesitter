@@ -10,7 +10,7 @@
 
 (bool_lit) @boolean
 
-(nil_lit) @constant.builtin
+(nil_lit) @boolean
 
 (comment) @comment
 
