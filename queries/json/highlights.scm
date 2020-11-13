@@ -1,6 +1,6 @@
 (true) @boolean
 (false) @boolean
-(null) @constant.builtin
+(null) @boolean
 (number) @number
 (pair key: (string) @label)
 (pair value: (string) @string)
