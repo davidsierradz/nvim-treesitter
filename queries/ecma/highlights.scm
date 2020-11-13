@@ -136,7 +136,8 @@
 
 (true) @boolean
 (false) @boolean
-(null) @constant.builtin
+(null) @boolean
+(undefined) @boolean
 (comment) @comment
 (string) @string
 (regex) @punctuation.delimiter
